@@ -6,24 +6,34 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.0.1] - 2023-11-06
 
-# Added
+### Added
 
 - LICENSE
 - CHANGELOG
 
 ## [0.0.1] - 2023-11-07
 
-# Added
+### Added
 
 - [Vcpkg](https://vcpkg.io/en/index.html) for downloading and installing packages
 - [Freeglut](https://freeglut.sourceforge.net) package using vcpkg
 
 ## [0.0.1] - 2023-11-07
 
-# Added
+### Added
 
 - Function for diplaying the cone 
 
-# Fixed 
+### Fixed 
+
+- CHANGELOG.md
+
+## [0.0.1] - 2023-11-07
+
+### Added
+
+- Function for drawing an animation of a cone, the base of which turns into a vertex, and the color changes smoothly
+
+### Fixed 
 
 - CHANGELOG.md
