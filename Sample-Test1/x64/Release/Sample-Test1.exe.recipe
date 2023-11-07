@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\steel\source\repos\computer-graphics-lab5\x64\Release\computer-graphics-lab5.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\steel\source\repos\computer-graphics-lab5\x64\Release\Sample-Test1.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -37,3 +37,11 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Fixed 
 
 - CHANGELOG.md
+
+## [0.0.1] - 2023-11-07
+
+### Added
+
+- Tests
+- Build artifacts of computer-graphics-lab5.sln and Sample-Test1.sln
+- README.md
