@@ -6,14 +6,24 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.0.1] - 2023-11-06
 
-### The project has been created
+# Added
 
-- Added LICENSE
-- Added CHANGELOG
+- LICENSE
+- CHANGELOG
 
 ## [0.0.1] - 2023-11-07
 
-### Installing the necessary packages
+# Added
 
-- Installed [vcpkg](https://vcpkg.io/en/index.html) for downloading and installing packages
-- Installed [freeglut](https://freeglut.sourceforge.net) package using vcpkg
+- [Vcpkg](https://vcpkg.io/en/index.html) for downloading and installing packages
+- [Freeglut](https://freeglut.sourceforge.net) package using vcpkg
+
+## [0.0.1] - 2023-11-07
+
+# Added
+
+- Function for diplaying the cone 
+
+# Fixed 
+
+- CHANGELOG.md

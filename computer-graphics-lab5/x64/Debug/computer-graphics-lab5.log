@@ -1,2 +1,4 @@
 ﻿  computer-graphics-lab5.cpp
+C:\Users\steel\source\repos\computer-graphics-lab5\computer-graphics-lab5\computer-graphics-lab5.cpp(42,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\steel\source\repos\computer-graphics-lab5\computer-graphics-lab5\computer-graphics-lab5.cpp(42,25): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
   computer-graphics-lab5.vcxproj -> C:\Users\steel\source\repos\computer-graphics-lab5\x64\Debug\computer-graphics-lab5.exe
