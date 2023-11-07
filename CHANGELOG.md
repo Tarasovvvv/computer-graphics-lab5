@@ -10,3 +10,10 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - Added LICENSE
 - Added CHANGELOG
+
+## [0.0.1] - 2023-11-07
+
+### Installing the necessary packages
+
+- Installed [vcpkg](https://vcpkg.io/en/index.html) for downloading and installing packages
+- Installed [freeglut](https://freeglut.sourceforge.net) package using vcpkg
