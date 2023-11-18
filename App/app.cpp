@@ -107,11 +107,11 @@ void update(int value)
 */
 int main(int argc, char** argv)
 {
-	const int WindowWidth = 1370;
-	const int WindowHeight = 1056;
+	const int WindowWidth = 1245;
+	const int WindowHeight = 840;
 	const int TimerFuncValue = 0;
 	const int TimeBeforeUpdate = 0;
-	const double BackgroundColor[4] = { 0.05078125f, 0.06640625f, 0.08984375f, 1.0f };
+	const double BackgroundColor[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
 
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
