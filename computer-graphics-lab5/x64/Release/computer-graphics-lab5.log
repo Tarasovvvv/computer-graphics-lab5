@@ -1,9 +1,0 @@
-﻿  computer-graphics-lab5.cpp
-C:\Users\steel\source\repos\computer-graphics-lab5\computer-graphics-lab5\computer-graphics-lab5.cpp(12,68): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\steel\source\repos\computer-graphics-lab5\computer-graphics-lab5\computer-graphics-lab5.cpp(89,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\steel\source\repos\computer-graphics-lab5\computer-graphics-lab5\computer-graphics-lab5.cpp(89,25): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-  Создание кода
-  Previous IPDB not found, fall back to full compilation.
-  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Создание кода завершено
-  computer-graphics-lab5.vcxproj -> C:\Users\steel\source\repos\computer-graphics-lab5\x64\Release\computer-graphics-lab5.exe

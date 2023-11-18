@@ -1,0 +1,43 @@
+name: build and test
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Installing vcpkg
+      run: |
+        git clone https://github.com/Microsoft/vcpkg.git
+        ./vcpkg/bootstrap-vcpkg.bat    
+
+    - name: Installing freeGLUT
+      run: "vcpkg/vcpkg.exe install freeglut"
+
+    - name: Installing CMake
+      run: "vcpkg/vcpkg.exe install cppzmq"
+
+    - name: Generate CMake building files
+      run: |
+        cd Build
+        copy ..\vcpkg\packages\freeglut_x64-windows\lib\freeglut.lib .
+        cmake .
+
+    - name: Build the app and tests
+      run: |
+        cd Build
+        cmake --build . --config Release
+        
+  test:
+    needs: build
+    runs-on: self-hosted
+
+    steps:
+      - name: Run tests
+        run: "Build/Release/TestApp.exe"
