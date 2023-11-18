@@ -1,0 +1,11 @@
+.vs/
+packages/
+x64/
+x86/
+Debug/
+Release/
+vcpkg/
+Build/*
+!Build/CMakeLists.txt
+*.lib
+*.dll
